@@ -1,0 +1,453 @@
+html {
+	background-color: #FFF5EE
+}
+
+body{
+	margin: 0px;
+	width:100%;
+	min-width: 800px;
+	margin: 0px auto;
+	font-family: 'EB Garamond', serif;
+	color:grey;
+
+}
+
+/*header*/
+header{
+position:fixed;
+left:0;
+right:0;
+top:0;
+height:55px;
+text-align: center;
+transition:background-color 1s linear, color 1s linear;
+z-index: 2;
+
+}
+header section{
+	position:relative;
+	width:1000px;
+	display:inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, footer{
+	font-family:Raleway, 'Raleway', sans-serif;
+	
+}
+
+h1{
+	display:inline-block;
+	width: 28%;
+	position: relative;
+	top: 5px;
+	font-size: 16px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+nav{
+	width: 68%;
+	display: inline-block;
+	top:6px;
+	text-align: right;
+}
+
+.menu{
+	list-style: none;
+	display:inline-block;
+	padding: 0 15px;
+	font-size: 14px;
+	font-family:Raleway, 'Raleway', sans-serif;
+	cursor: pointer;
+}
+/*end header*/
+
+/*social media*/
+.socialmedia{
+	left: -10px;
+	position: absolute;
+	top: 440px;
+}
+
+.socialmedia #icons{
+display: block;
+position: relative;
+left: 0
+}
+
+.socialmedia.sticky {
+  position: fixed;
+  top: 36px;
+}
+i{
+	color: grey;
+	padding: 5px 0px;
+}
+
+i.emph:hover{
+	color: #ffffff;
+	cursor: pointer;
+}
+/*end of social media*/
+
+/*pages*/
+.firstpage{
+	background-image: url(../img/JuliHang.jpg);
+	background-size: cover;
+	width: 100%;
+	min-width: 800px;
+	z-index: -10;
+	padding-bottom: 40px
+/*	min-height: 380px;*/
+}
+
+.landing-pname {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-top:450px;
+    font-family: Raleway, 'Raleway', sans-serif;
+}
+.align-center {
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    text-align: center;
+    float: none;
+ }
+
+ #title_hr {
+    border-top: 3px solid #fff;
+    margin: 0.1em auto;
+    width: 40px;
+}
+
+.landing-intro {
+    color: #d5d5d5;
+    font-size: 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/*second page: ABOUT*/
+
+.secondpage{
+	/*height: 55vw;*/
+	min-width: 800px;
+	/*background-color: #E0E0E0;*/
+}
+
+h2{
+	text-transform: uppercase;
+	margin-top: 100px;
+	position: relative;
+	margin-bottom: 0px
+}
+#underlinetext{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #FF7F50;
+    margin: 0 auto;
+    width: 20px;
+}
+
+.abouttext{
+	color: #808080;
+    font-size: 14px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 50px;
+}
+.columnabout{
+	width:100%;
+	min-width: 800px;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+#column1{
+	width: 20%;
+	display: inline-block;
+	padding:20px;
+	min-height: 275px;
+	vertical-align: top;
+}
+
+#column2{
+	width: 20%;
+	display: inline-block;
+	padding:20px 40px;
+	min-height: 275px;
+	vertical-align: top;
+}
+
+#column3{
+	width: 20%;
+	display: inline-block;
+	padding:20px;
+	min-height: 275px;
+	vertical-align: top;
+}
+#title{
+	font-size: 18px;
+	color: #FF7F50;
+	text-align: right;
+	text-transform: uppercase;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-family:Raleway, 'Raleway', sans-serif;
+
+}
+#content{
+	font-size: 10px;
+	color: grey;
+	text-align: right;
+	font:lighter;
+	margin: 0;
+	
+}
+#abouticons{
+	position: relative;
+	float:left;
+}
+
+li{
+	list-style: none;
+}
+
+li #bold{
+	font-weight: bold
+}
+
+/*page3 SKILLS*/
+.thirdpage{
+	/*height: 55vw;*/
+	min-width: 800px;
+	font-stretch: extra-expanded;
+	position: relative;
+	
+}
+#title-skill{
+	font-size: 18px;
+	color: #FF7F50;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-family:Raleway, 'Raleway', sans-serif;
+
+}
+
+
+.column-skill-about{
+	width:100%;
+	min-width: 800px;
+	margin-top: 20px;
+	margin-right: 50px;
+	/*background-color:#FFFAFA;*/
+
+}
+
+.skill-abouttext{
+	color: #808080;
+    font-size: 14px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 50px;
+    position:relative;
+}
+
+.columnskills{
+	width:100%;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+#icons-row {
+    display: inline-block;
+    padding: 0;
+    width:20%;
+    min-height: 275px;
+    margin: 0;
+    vertical-align: top;
+}
+
+#skill-icons{
+	display: block;
+	position: relative;
+	left:80px;	
+}	
+#skill-content{
+  text-align: center;
+  font-size: 12px;
+  margin: 12px 25px;
+
+}
+
+/*forthpage*/
+.forthpage{
+	/*height: 60vw;*/
+	font-stretch: extra-expanded;
+}
+
+#color-page4{
+	background-color:#FFFAFA;;
+}
+
+.gallery{
+	width:100%;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+ 
+ .gallerycontainer{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+	min-height: 500px;
+	text-align:center;
+  	position:relative;
+  } 
+.thing{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	margin:5px;
+}
+
+
+#eating{
+	background-image:url("../img/eating1.jpg");
+	background-size: cover;
+	
+}
+
+#reading{
+	background-image:url("../img/reading.jpg");
+	background-size: cover;
+}
+
+
+#woman{
+	background-image:url("../img/woman3.jpg");
+	background-size: cover;
+}
+/*.thing{
+	position: relative;
+}*/
+
+a.box{
+    display:block;
+    float:left;
+    position:relative;
+    text-align:center;
+    text-decoration:none;
+    color:#FFA07A;
+    margin:10px 10px 10px 15px;
+    
+  
+}  
+h3{
+  padding-top:50px; 
+  padding-bottom:3px; margin:0;
+  font-size:1em;
+  text-align:center;
+  line-height: 280px;
+
+  text-transform:uppercase;
+  visibility: hidden;
+
+}
+
+.thing:hover h3 {
+ 	visibility: visible;
+ 	z-index: 2;
+ 	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+ }   
+
+.thing{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	
+}
+
+.thing:hover{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/*contact page*/
+.fifthpage{
+/*	height: 55vw;*/
+	min-width: 800px;
+	font-stretch: extra-expanded;
+	position: relative;
+}
+
+#email{
+	text-decoration: none;
+	cursor:pointer;
+	color:#FF6347;
+	font-style: bold;
+
+}
+
+/*arrow to home*/
+#toparrow{
+	right: 40px;
+	position: absolute;
+	top: 705px;
+}	
+#toparrow.stickyarrow {
+  position: fixed;
+  top: 90px;
+}
+
+footer{
+	text-align: center;
+
+	margin: 230px 30px 10px 30px;
+}
+/*changing dimensions of webpage*/
+@media (max-width: 800px){
+	.landing-pname{
+		font-size:40px;
+		}
+header section{
+width: 650px;
+height: 55px;
+vertical-align: top;	
+}
+ul {
+	padding:0px;
+}
+.menu{
+	padding: 0px 10px;
+}
+nav{
+	text-align: center;
+}
+h1{
+	margin-left:0px;
+}
+.socialmedia {
+    left: 5px;
+    }
+
+.firstpage {
+   background-size: fill;
+   background-repeat: no-repeat;
+ width:100%;
+
+footer{
+text-align: center;
+
+margin: 20px 20px 10px 30px;
+}

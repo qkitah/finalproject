@@ -1,0 +1,482 @@
+body {
+  margin: 80px 0 0 0;
+  font-size: 16px;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+}
+/*modal about*/
+body.aboutbox-on{
+    overflow: hidden;/*to prefent the text from below form moving when the modal is on */
+}
+
+body.aboutbox-on .modal_wrapper{
+    display:block;
+}
+.modal_wrapper{
+    top:0;
+    left:0;
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.75);
+    display: none;
+    z-index: 1;
+}
+
+.aboutbox{
+    position:relative;
+    top:10%;
+    margin:30px auto;
+    width:600px;
+    height: 500px;
+    padding:15px;
+    background-color: #6495ED;
+    z-index: 2;
+}  
+.close{
+    float:right;
+}
+
+.aboutbox p{
+    margin:130px 30px 30px 100px;
+    text-align: right;
+}
+
+
+/*end modal about*/
+
+/*top menu*/
+header{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    height:60px;
+    text-align: center;
+}
+
+section{
+    position: relative;
+    width:600px;
+    height:60px;
+    display: inline-block;
+}
+
+nav{
+    position:absolute;
+    top:20px;
+    right:0px;
+}
+nav ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+   } 
+/*end of top menu*/
+
+h1{
+    font-family:'Shadows Into Light', cursive;
+}
+
+/*main {
+  margin-top:600px;
+  text-align: left;
+  width: 800px;
+  display:inline-block;
+}*/
+/*landing page*/
+.whitewall {
+  background-size:cover;
+  width:100%;
+  height: 730px;
+  position: absolute;
+  z-index: -1;
+  top:0;
+  background-image: url("../img/brickwall.jpg");
+}
+.whitewall .title {
+  width: 800px;
+  margin: 270px auto;
+  position: relative;
+  text-align:center;
+  color:black;
+  font-size: 80px;
+}
+/*caoursel w/ cities*/
+.carousel{
+    position: relative;
+    top: 320px;
+    font-size: 40px;
+   letter-spacing: 2px;
+    /*z-index: -1;*/
+    text-align: center;
+}
+
+#cities:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.align-center {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    text-align: center;
+    float: none;
+}
+
+.carousel-inner{
+    width:400px;
+    display:inline-block;
+}
+
+
+/*arrow*/
+.arrow{
+/*    position: absolute;*/
+    position: relative;
+    top:-70px;
+    display: inline-block;
+    text-align: right;
+/*    left:22%;
+    right: 22%;
+    top:-70px;*/
+}
+.innerarrow{
+     display: inline-block;
+}
+.arrowtext{
+    width: 200px;
+    font-size: 16px;
+}
+
+.arrowimage{
+    background-image:url("../img/arrow.png");
+    background-size: contain;
+    width: 100px;
+    height:100px;
+    background-repeat: no-repeat;
+}
+
+/*end arrow*/
+/*page2 - GALLERY*/
+.page2{
+    min-width: 800px;
+    margin-top:477px;
+    position: relative;
+}
+.titleleft{
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    position:relative;
+}
+h2{
+    position: relative;
+    width:300px;
+    text-align: right;
+    padding: 20px;
+    color:white;
+    margin-top:0px;
+    letter-spacing: 3px;
+}
+#underline{
+    border: 2px solid white;
+    margin: 0 auto;
+    width: 20px;
+    margin-left:60px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 12px;
+}
+
+ .nygallerycontainer{
+    position: absolute;
+    font-size:0;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:300px;
+    text-align:left;
+  } 
+/*effect*/
+.picture_frame::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  -webkit-filter: grayscale(0%);
+  filter:grayscale(0%);
+  transition: 0.5s ease-in-out;
+}
+.picture_frame h3 {
+  margin: 0;
+  padding: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align:center;
+  background-color: rgba(40,40,40,0.4);
+}
+
+.picture_frame:hover::before {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.picture_frame * {
+  color: #6495ED;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+}
+.picture_frame:hover * {
+  -webkit-filter: grayscale(0%);
+  filter:grayscale(0%);
+  opacity: 1;
+}
+/*end effect*/
+.meal{
+    position: relative;
+    font-size:20px;
+    display: inline-block;
+    width:50%;
+    height: 50%;
+  
+}
+#brunch .picture_frame::before {
+    background-image:url("../img/brunch.jpg");
+}
+#brunch{
+/*    background-image:url("../img/brunch.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#lunch .picture_frame::before {
+    background-image:url("../img/lunch1.jpg");
+}
+#lunch{
+ /*   background-image:url("../img/lunch1.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#dinner .picture_frame::before {
+    background-image:url("../img/dinner.jpg");
+}
+#dinner{
+   /* background-image:url("../img/dinner.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bar .picture_frame::before {
+    background-image:url("../img/bar1.jpg");
+}
+#bar{
+  /*  background-image:url("../img/bar1.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*end page2 -GALLERY*/
+/*page 3- BURNCH*/
+.page3{
+   margin-top:50px;
+   min-width: 800px;
+   position: relative;
+}
+
+h4{
+    font-size: 50px;
+    font-family:'Shadows Into Light', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left:50%
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.quote{
+    font-style: italic;
+    padding:25px 0px 0px 0px;
+}
+ hr {
+    border-top: 2px solid #6495ED;
+    margin: 25px auto;
+    width: 600px;
+}
+
+.meal_content{
+    width:600px;
+    text-align: left;
+    display: inline-block;
+}
+
+h5{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
+
+#section{
+    margin-bottom: 50px;
+}
+
+/*end page 3 -BRUNCH*/
+/* page 4 -LUNCH*/
+.page4{
+   margin-top:80px;
+   min-width: 800px;
+   position: relative;
+}
+
+.price{
+    color: #6495ED;
+    font-style: bold;
+    font-family:'Shadows Into Light', cursive;
+    font-size: 25px;
+
+}
+/*end page 4 -LUNCH*/
+
+/*PAGE 6 - BAR*/
+.bar_list{
+    list-style: initial;
+    list-style-type: square;
+}
+/*end page 6*/
+
+/*PAGE 7 - SFO*/
+.page7{
+   margin-top:80px;
+   min-width: 447px;
+   height: 600px;
+   position: relative;
+}
+.titleright{
+    width: 300px;
+    background-color: black;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    /*left:100px;
+    z-index: -1;*/
+}
+h2{
+    position: relative;
+    width:300px;
+    text-align: right;
+    padding: 20px;
+    color:white;
+    margin-top:0px;
+    letter-spacing: 3px;
+}
+#underline{
+    border: 2px solid white;
+    margin: 0 auto;
+    width: 20px;
+    margin-left:60px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 12px;
+}
+
+ .sfgallerycontainer{
+    position: absolute;
+    font-size:0;
+    top:0px;
+    right:300px;
+    bottom:0px;
+    left:0px;
+    text-align:left;
+  } 
+
+.meal{
+    position: relative;
+    font-size:20px;
+    display: inline-block;
+    width:50%;
+    height: 50%;
+  
+}
+#hayes .picture_frame::before {
+    background-image:url("../img/hayes1.jpg");
+}
+#hayes{
+/*    background-image:url("../img/brunch.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mission .picture_frame::before {
+    background-image:url("../img/mission.jpg");
+}
+#mission{
+ /*   background-image:url("../img/lunch1.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#tenderloin .picture_frame::before {
+    background-image:url("../img/tenderloin.jpg");
+}
+#tenderloin{
+   /* background-image:url("../img/dinner.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fillmore .picture_frame::before {
+    background-image:url("../img/San-Francisco2.jpg");
+}
+#fillmore{
+  /*  background-image:url("../img/bar1.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*end PAGE 7 - SFO*/
+/*page 8*/
+.page8{
+   margin-top:50px;
+   min-width: 800px;
+   position: relative;
+}
+/*end PAGE 8 - SFO*/
+
+/*page 9*/
+.page9{
+   margin-top:50px;
+   min-width: 800px;
+   position: relative;
+}
+/*arrow TO PAGE2*/
+#toparrow{
+    right: 40px;
+    position: fixed;
+    display:none;
+    bottom:200px;
+}   
+#toparrow.stickyarrow {
+  display:block;
+ 
+}
+/*end arrow to page 2*/
+/*footer*/
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 14px;  
+}
