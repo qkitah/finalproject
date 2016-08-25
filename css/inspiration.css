@@ -1,0 +1,95 @@
+body {
+  margin: 80px 0 0 0;
+  font-size: 16px;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/*top menu*/
+header{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    height:60px;
+    text-align: center;
+}
+
+section{
+    position: relative;
+    width:600px;
+    height:60px;
+    display: inline-block;
+  
+}
+
+nav{
+    position:absolute;
+    top:20px;
+    right:0px;
+}
+nav ul {
+    list-style: none;
+    cursor: pointer;
+   
+}
+li a.activate-aboutbox{
+	color:#DB7093 !important;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+   } 
+/*end of top menu*/
+
+h1{
+    font-family:'Shadows Into Light', cursive;
+
+}
+
+/*landing page*/
+.whitewall {
+  background-size:cover;
+  width:100%;
+  height: 730px;
+  position: absolute;
+  z-index: -1;
+  top:0;
+  background-image: url("../img/inspiration3.jpg");
+}
+.whitewall .title {
+  width: 800px;
+  margin: 270px auto;
+  margin-bottom: 40px;
+  position: relative;
+  text-align:center;
+  color:black;
+  font-size: 80px;
+  position:relative;
+}
+.subheading{
+	font-family:'Shadows Into Light', cursive;
+	font-size: 50px;
+	width:550px;
+	position: relative;
+	left:10%;
+	display: inline-block;
+}
+
+
+
+.footer {
+/*  display:block;
+  margin:0 auto;*/
+  display:inline-block;
+  width:700px;
+  text-align: center;
+  font-size: 14px; 
+  margin-top: 10px; 
+  background-color: black;
+  color:white;
+}
+#claim{
+    font-size: 10px;
+}
