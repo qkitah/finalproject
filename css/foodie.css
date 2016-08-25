@@ -6,7 +6,7 @@ body {
 }
 /*modal about*/
 body.aboutbox-on{
-    overflow: hidden;/*to prefent the text from below form moving when the modal is on */
+   overflow: hidden;/*to prefent the text from below form moving when the modal is on */
 }
 
 body.aboutbox-on .modal_wrapper{
