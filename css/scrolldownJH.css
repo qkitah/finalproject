@@ -85,7 +85,8 @@ i{
 	padding: 5px 0px;
 }
 
-i.emph:hover{
+i.emph:hover,
+i.emph:active{
 	color: #ffffff;
 	cursor: pointer;
 }
@@ -398,7 +399,8 @@ h3{
   text-decoration:none;
 }
 
-.picture_frame:hover::before {
+.picture_frame:hover::before,
+.picture_frame:active::before  {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -410,7 +412,8 @@ h3{
 
   
 }
-.picture_frame:hover * {
+.picture_frame:hover *, 
+.picture_frame:active * {
   -webkit-filter: grayscale(0%);
   filter:grayscale(0%);
   opacity: 1;
