@@ -519,15 +519,24 @@ h3{
 /*end arrow to PAGE 1 LANDING PAGE*/
 /*footer*/
 .footer {
-/*  display:block;
-  margin:0 auto;*/
-  display:inline-block;
-  width:700px;
+    display:inline-block;
+  position: relative;
   text-align: center;
   font-size: 14px; 
   margin-top: 10px; 
   background-color: black;
   color:white;
+  padding: 50px 12.5%;
+  text-align: center;
+/*  display:block;
+  margin:0 auto;*/
+ /* display:inline-block;
+  width:700px;
+  text-align: center;
+  font-size: 14px; 
+  margin-top: 10px; 
+  background-color: black;
+  color:white;*/
 }
 #claim{
     font-size: 10px;

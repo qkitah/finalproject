@@ -487,12 +487,22 @@ h3.contact a{
 
 }
 
-footer{
-	text-align: center;
-
-	margin: 50px 30px 10px 30px;
+.footer{
+display:inline-block;
+  position: relative;
+  font-size: 14px; 
+  margin-top: 50px; 
+  background-color: grey;
+  color:white;
+  padding: 50px 12.5%;
+  text-align: center;
+  font-family:Raleway, 'Raleway', sans-serif;
+	
 }
-#linefooter{
+#claim{
+    font-size: 10px;
+}
+/*#linefooter{
   display:inline-block;
   width:700px;
   text-align: center;
@@ -500,7 +510,7 @@ footer{
   margin-top: 60px; 
   background-color: black;
   padding-bottom: 0px;
-}
+}*/
 
 
 /*changing dimensions of webpage*/
@@ -548,7 +558,7 @@ h1{
   margin: 12px 15px;
 }
 
-footer{
+.footer{
 text-align: center;
 font-size: 12px;
 
