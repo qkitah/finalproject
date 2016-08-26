@@ -41,7 +41,9 @@ body.aboutbox-on .modal_wrapper{
     margin:130px 30px 30px 100px;
     text-align: right;
 }
-
+.signature{
+  color:white;
+}
 /*end modal about*/
 
 /*top menu*/

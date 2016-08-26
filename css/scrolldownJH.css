@@ -40,7 +40,7 @@ h1{
 	width: 28%;
 	position: relative;
 	top: 5px;
-	font-size: 16px;
+	font-size: 20px;
 	margin-left: 20px;
 	text-align: left;
 }
@@ -51,12 +51,14 @@ nav{
 	top:6px;
 	text-align: right;
 }
-
+.ul-menu{
+	margin-top:22px;
+}
 .menu{
 	list-style: none;
 	display:inline-block;
 	padding: 0 15px;
-	font-size: 14px;
+	font-size: 18px;
 	font-family:Raleway, 'Raleway', sans-serif;
 	cursor: pointer;	
 }
@@ -129,7 +131,7 @@ i.emph:active{
 
 .landing-intro {
     color: #d5d5d5;
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 250px;
     margin-right: 250px;
     padding-top: 10px;
@@ -148,7 +150,8 @@ h2{
 	text-transform: uppercase;
 	margin-top: 100px;
 	position: relative;
-	margin-bottom: 0px
+	margin-bottom: 0px;
+	font-size:35px;
 }
 #underlinetext{
 	position: relative;
@@ -160,7 +163,7 @@ h2{
 
 .abouttext{
 	color: #808080;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 250px;
     margin-right: 250px;
     padding-bottom: 50px;
@@ -183,7 +186,7 @@ h2{
 #column2{
 	width: 20%;
 	display: inline-block;
-	padding:20px 40px;
+	padding:20px 30px;
 	min-height: 275px;
 	vertical-align: top;
 }
@@ -196,7 +199,7 @@ h2{
 	vertical-align: top;
 }
 #title{
-	font-size: 18px;
+	font-size: 20px;
 	color: #FF7F50;
 	text-align: right;
 	text-transform: uppercase;
@@ -206,7 +209,7 @@ h2{
 
 }
 #content{
-	font-size: 10px;
+	font-size: 16px;
 	color: grey;
 	text-align: right;
 	font:lighter;
@@ -235,7 +238,7 @@ li #bold{
 	
 }
 #title-skill{
-	font-size: 18px;
+	font-size: 20px;
 	color: #FF7F50;
 	text-align: center;
 	text-transform: uppercase;
@@ -257,11 +260,12 @@ li #bold{
 
 .skill-abouttext{
 	color: #808080;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 250px;
     margin-right: 250px;
     padding-bottom: 50px;
     position:relative;
+ 
 }
 
 .columnskills{
@@ -294,7 +298,7 @@ li #bold{
 }	
 #skill-content{
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   margin: 12px 25px;
 
 }
@@ -444,10 +448,49 @@ h3.contact a{
 
 /*end arrow to home*/
 
+/*footer*/
+.contact_section{
+	padding-bottom: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-img-container {
+    float: left;
+    border-radius: 50%;
+    background-color: rgba(255,127,80,.75);
+    width:150px;
+    height:150px;
+  /*  line-height: 150px;
+    vertical-align: middle;*/
+}
+.contact-img-container img{
+	width:100%;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.contact-text-container {
+    float: left;
+    padding-left: 5%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.contact-list li a{
+	float: left;
+    font-size: 18px;
+    line-height: 20px;
+    font-family:Raleway, 'Raleway', sans-serif;
+    color:#FF7F50;
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
 footer{
 	text-align: center;
 
-	margin: 0px 30px 10px 30px;
+	margin: 50px 30px 10px 30px;
 }
 #linefooter{
   display:inline-block;
@@ -462,9 +505,9 @@ footer{
 
 /*changing dimensions of webpage*/
 @media (max-width: 800px){
-	.landing-pname{
-		font-size:40px;
-		}
+.landing-pname{
+font-size:40px;
+}
 header section{
 width: 650px;
 height: 55px;
@@ -475,25 +518,27 @@ ul {
 }
 .menu{
 	padding: 0px 10px;
+	font-size: 16px;
 }
 nav{
 	text-align: center;
 }
 h1{
 	margin-left:0px;
+	font-size: 16px;
 }
+
 .socialmedia {
     left: 5px;
     }
 
 .firstpage {
-   background-size: fill;
+   background-size: 150%;
    background-repeat: no-repeat;
- width:100%;
+   background-position: 25% 0;
 }
-
 #title{
-	font-size: 13px;
+	font-size: 15px;
 }
 #title-skill{
 	font-size: 13px;
