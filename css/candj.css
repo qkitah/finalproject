@@ -1,0 +1,164 @@
+body {
+  margin: 20px 0 0 0;
+  min-width: 800px;
+  font-size: 16px;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  background-color: black;
+
+}
+header{
+    position:absolute;
+    left:0;
+    right:0;
+    top:30px;
+    text-align: center;
+    transition:background-color 1s linear, color 1s linear;
+    z-index: 2;
+
+}
+header section{
+    position:relative;
+    width:1000px;
+    display:inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, footer{
+    font-weight: bold;
+    
+}
+
+nav{
+    width: 80%;
+    display: inline-block;
+    top:6px;
+    text-align: right;
+    margin-top: 30px;
+}
+.ul-menu{
+    margin-top:22px;
+    padding:0px;
+}
+.menu{
+    list-style: none;
+    display:inline-block;
+    padding: 0 15px;
+    font-size: 18px;
+    cursor: pointer;    
+    color:#008B8B;
+}
+
+.title{
+    font-family:'Shadows Into Light', cursive;
+    color:#008B8B;
+    font-size: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 200px;
+    padding-bottom: 15px;
+    position: relative;
+    display: inline-block;
+
+}
+
+/*end header*/
+
+/*landing page image*/
+.firstpage{
+    position: absolute;
+    top:40px;
+    width: 100%;
+    min-height: 600px;
+    background-image:url("../img/coffeandjeans5ok.jpg");
+    background-size:cover;
+}
+
+/*page about*/
+.align-center {
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    float: none;
+   }
+.pageabout{
+    top:600px;
+    color:white;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    width: 60%;
+    display: inline-block;
+    text-align: justify;
+}
+h2{
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.text{
+    color:#20B2AA;
+    font-size: 30px;
+    font-family:'Shadows Into Light', cursive;
+    text-align: center;
+
+}
+.links_about{
+    color:#20B2AA;
+}
+/*page coffees*/
+.coffees{
+    top:600px;
+    color:white;
+    position: relative;
+}
+main {
+  width: 100%;
+  background-color: white;
+  min-height: 100px;
+  text-align:center;
+}
+
+.box {
+  background-color: #66CDAA;
+  width: 280px;
+  height: 280px;
+  /*float: right;*/
+  border: 2px solid black;
+  margin: 30px 10px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align:center;
+  padding-top: 80px;
+  display:inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jump {
+  clear: right;
+}
+/*end of cafe coffees*/
+
+/*footer*/
+.footer {
+    display:inline-block;
+  position: relative;
+  top:650px;
+  text-align: center;
+  font-size: 14px; 
+  margin-top: 10px; 
+  background-color: black;
+  color:white;
+    padding: 100px;
+
+}
+#claim{
+    font-size: 10px;
+}
+
+

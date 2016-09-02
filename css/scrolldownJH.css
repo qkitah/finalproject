@@ -316,16 +316,23 @@ li #bold{
 
  .gallerycontainer{
     width: 100%;
+    /*width: 900px;*/
     overflow: hidden;
-    position: relative;
+    /*position: relative;*/
 	min-height: 500px;
 	text-align:center;
   	position:relative;
   	margin-top: 20px;
 	margin-right: 50px;
-	
 
   } 
+
+ .row{
+ 	width: 900px;
+ 	display: inline-block;
+ 
+
+ } 
 .picture_frame{
 	display: inline-block;
 	width: 250px;
@@ -354,10 +361,13 @@ li #bold{
 	background-repeat: no-repeat;
 }
 
-
-#woman{
-	background-image:url("../img/woman3.jpg");
+#coffee.picture_frame::before{
+	background-image:url("../img/coffee1.jpg");
+}
+#coffee{
+	background-image:url("../img/coffee1.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 /*.thing{
 	position: relative;
@@ -411,7 +421,7 @@ h3{
 
 .picture_frame * {
   color: #FFA07A;
-  transition: 0.5s ease-in-out;
+  transition: 0.1s ease-in-out;
   opacity: 0;
 
   
@@ -422,7 +432,16 @@ h3{
   filter:grayscale(0%);
   opacity: 1;
 }
-
+.col1{
+	width: 30%;
+    float: left;
+   padding: 0px;
+}
+.col3 {
+    width: 30%;
+    float: left;
+    padding: 0 20px;
+}
 
 /*pag 5*/
 .fifthpage{
@@ -492,7 +511,8 @@ h3.contact a{
 
 .footer{
 display:inline-block;
-  position: relative;
+  position: absolute;
+  bottom:0;
   font-size: 14px; 
   margin-top: 50px; 
   background-color: grey;
