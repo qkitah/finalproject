@@ -511,7 +511,7 @@ h3.contact a{
 
 .footer{
 display:inline-block;
-  position: absolute;
+  position: relative;
   bottom:0;
   font-size: 14px; 
   margin-top: 50px; 
