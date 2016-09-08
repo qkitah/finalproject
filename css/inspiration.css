@@ -189,6 +189,37 @@ p a{
 }
 /* end page 4- INSPIRATION #3*/
 
+/*  page 4- INSPIRATION #4*/
+.number{
+  font-family:'Shadows Into Light', cursive;
+  font-size: 30px;
+}
+
+.ways-to-ruin-life{
+    width:600px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 40px;
+}
+.list{
+  margin-bottom: 15px
+}
+/*  end page 4- INSPIRATION #4*/
+
+/*arrow to home*/
+#toparrow{
+  right: 40px;
+  position: absolute;
+  top: 800px;
+} 
+#toparrow.stickyarrow {
+  position: fixed;
+  top: 90px;
+  cursor: pointer;
+}
+
+/*end arrow to home*/
+
 
 /*footer*/
 .footer {
