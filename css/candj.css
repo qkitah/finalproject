@@ -1,3 +1,6 @@
+html{
+  position: relative;
+}
 body {
   margin: 20px 0 0 0;
   min-width: 800px;
@@ -48,6 +51,11 @@ nav{
     color:#008B8B;
 }
 
+
+
+/*end header*/
+
+/*landing page image*/
 .title{
     font-family:'Shadows Into Light', cursive;
     color:#008B8B;
@@ -60,10 +68,6 @@ nav{
     display: inline-block;
 
 }
-
-/*end header*/
-
-/*landing page image*/
 .firstpage{
     position: absolute;
     top:40px;
@@ -72,6 +76,9 @@ nav{
     background-image:url("../img/coffeandjeans5ok.jpg");
     background-size:cover;
 }
+
+
+
 
 /*page about*/
 .align-center {
@@ -142,11 +149,21 @@ main {
 .jump {
   clear: right;
 }
-/*end of cafe coffees*/
+/*end of page coffees*/
 
+
+/*pag4 pati garcia*/
+.patigarcia{
+  position: relative;
+  top:20000px;
+  color:white;
+}
+
+
+/*end of cafe coffees*/
 /*footer*/
 .footer {
-    display:inline-block;
+  display:inline-block;
   position: relative;
   top:650px;
   text-align: center;
@@ -154,7 +171,7 @@ main {
   margin-top: 10px; 
   background-color: black;
   color:white;
-    padding: 100px;
+  padding: 100px;
 
 }
 #claim{
